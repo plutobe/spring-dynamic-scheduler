@@ -17,7 +17,7 @@ spring:
       maximum-pool-size: 20
       auto-commit: true
       idle-timeout: 30000
-      pool-name: SpringBootDemoHikariCP
+      pool-name: SpringDynamicSchedulerHikariCP
       max-lifetime: 60000
       connection-timeout: 30000
   jpa:
@@ -30,6 +30,6 @@ spring:
     open-in-view: true
 logging:
   level:
-    com.xkcoding: debug
+    com.plutobe: debug
     org.hibernate.SQL: debug
     org.hibernate.type: trace
